@@ -1,0 +1,18 @@
+.grid {
+    height: 400px;
+    width: 400px;
+    display: flex; /* make the squared next to eachother */
+    flex-wrap: wrap;
+    background-color: grey;
+}
+
+.grid div {
+    height: 40px;
+    width: 40px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.grid .bomb {
+    background-color: red;
+}
